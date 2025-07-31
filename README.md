@@ -1,9 +1,14 @@
 # Ascii-Text-Generator
 
-|  ___|_ _/ ___| | ___| |_ 
-| |_   | | |  _| |/ _ \ __|
-|  _|  | | |_| | |  __/ |_ 
-|_|   |___\____|_|\___|\__|
+1.  What is FIGlet? 
+2.  Where can I get FIGlet from?
+3.  Where can I get more fonts for FIGlet?
+4.  How can I contribute?
+5.  Where does the name FIGlet come from?
+
+Once you've installed the PNG components and successfully compiled the project, you need to download the fonts. Create a "Font" folder in the project folder and copy the *.fif files into this folder to render them.
+
+Font Download : http://www.figlet.org/fontdb.cgi
 
 
 A FIGlet font is a decorative font composed of ASCII characters to display letters and numbers. FIGlet fonts are part of ASCII art.
