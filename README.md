@@ -1,5 +1,11 @@
 # Ascii-Text-Generator
 
+|  ___|_ _/ ___| | ___| |_ 
+| |_   | | |  _| |/ _ \ __|
+|  _|  | | |_| | |  __/ |_ 
+|_|   |___\____|_|\___|\__|
+
+
 A FIGlet font is a decorative font composed of ASCII characters to display letters and numbers. FIGlet fonts are part of ASCII art.
 The name originally comes from a computer program called FIGlet (an acronym for Frank, Ian, and Glen's letters), which uses these fonts to create ASCII art.
 With the ASCii Text Creator, you can create FIGlet fonts at the touch of a button. There are 302 font arts available to choose from.
