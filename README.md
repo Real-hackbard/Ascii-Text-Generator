@@ -1,5 +1,12 @@
 # Ascii-Text-Generator
 
+                                                             
+                             _/      _/        _/            
+    _/_/    _/  _/_/      _/_/_/_/  _/_/_/          _/_/_/   
+ _/    _/  _/_/            _/      _/    _/  _/  _/_/        
+_/    _/  _/              _/      _/    _/  _/      _/_/     
+ _/_/    _/                _/_/  _/    _/  _/  _/_/_/        
+
 1.  What is FIGlet? 
 2.  Where can I get FIGlet from?
 3.  Where can I get more fonts for FIGlet?
