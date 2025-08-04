@@ -1,4 +1,13 @@
-# Ascii-Text-Generator
+# Ascii-Text-Generator:
+
+```
+Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
+Components  : PNGImage.pas, FGlet.pas, LabelLien.pas
+Discription : ASCii Text Art Creator
+Last Update : 08/2025
+License     : Freeware
+```
+
 
 ### 1.  What is FIGlet? 
 ### 2.  Where can I get FIGlet from?
