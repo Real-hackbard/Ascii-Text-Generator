@@ -29,7 +29,7 @@ The "Fonts" folder can also be expanded with your own FIGlet fonts if desired. S
 
 The tool can also export ASCII text in images, offering several features. RGB color values are adjustable, and a gradient can be generated.
 
-### Export formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF; *.TIF; *.WMF; *.EMF; *.PSD; *.PDF;
+Posible Export formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF; *.TIF; *.WMF; *.EMF; *.PSD; *.PDF;
 
 FIGlet prints its input with large characters (called "FIGcharacters") composed of ordinary screen characters (so-called "sub-characters"). FIGlet output is generally reminiscent of the kind of "sign-natures" that many people like to put at the end of email and UseNet messages. It is also reminiscent of the output of some banner programs, although it is normally aligned, not sideways.
 
