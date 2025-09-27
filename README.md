@@ -91,8 +91,12 @@ The tool can also export ASCII text in images, offering several features. RGB co
 ### The Hashtag Problem:
 Because keyboard layouts in the past weren't the same as they are today, even though they use the same ASCII set, it's possible that a hashtag is drawn instead of a space. This isn't necessarily a bug, but simply a misinterpretation of the font set. The problem is that strings weren't defined as PWideChar in 1991, and today's Delphi compilers assume this, which is why this misinterpretation occurs.
 
+In Delphi, PWideChar is a pointer to a null-terminated Unicode string of WideChar values. It enables seamless integration with C and C++ applications that expect such null-terminated Unicode strings. Because PWideChar variables are not reference-counted and are not copied, its use is unsafe and can lead to memory leaks or data corruption, so it should be used carefully.
 
-###
+The solution is to simply convert the hashtag into a space!
+
+
+### FIGcharacters:
 FIGlet prints its input with large characters (called "FIGcharacters") composed of ordinary screen characters (so-called "sub-characters"). FIGlet output is generally reminiscent of the kind of "sign-natures" that many people like to put at the end of email and UseNet messages. It is also reminiscent of the output of some banner programs, although it is normally aligned, not sideways.
 
 FIGlet can print in a variety of fonts, both left-to-right and right-to-left, with adjacent FIG characters kerned and squashed together in various ways.
