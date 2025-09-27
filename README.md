@@ -53,6 +53,11 @@ Font Download : http://www.figlet.org/fontdb.cgi
 Once you've installed the PNG components and successfully compiled the project, you need to download the fonts. Create a "Font" folder in the project folder and copy the *.fif files into this folder to render them.
 The "Fonts" folder can also be expanded with your own FIGlet fonts if desired. Simply copy the files into the folder; they should have the *.fif file extension so that the tool recognizes them.
 
+I've included some fonts in the project that are suitable for testing. My collection of over a thousand font files is too large to upload here.
+
+You can also create your own font set using an editor and use it in this program.  
+Editor : https://patorjk.com/figlet-editor/#/edit
+
 ### 4.  How can I contribute?
 * FIGlet Fonts & Sites : https://knassen.github.io/personal-tech/figlet.html
 * SteveC wrote a teeny tiny figlet plug in for xchat that you can find here: http://www.fractalus.com/steve/stuff/figlet/
