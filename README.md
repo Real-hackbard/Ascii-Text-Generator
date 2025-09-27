@@ -93,8 +93,48 @@ Because keyboard layouts in the past weren't the same as they are today, even th
 
 In Delphi, PWideChar is a pointer to a null-terminated Unicode string of WideChar values. It enables seamless integration with C and C++ applications that expect such null-terminated Unicode strings. Because PWideChar variables are not reference-counted and are not copied, its use is unsafe and can lead to memory leaks or data corruption, so it should be used carefully.
 
-The solution is to simply convert the hashtag into a space!
+The solution is to simply convert the hashtag into a space!  
+This is the part of the code in the "Commen.pas" File where the misinterpretation occurs.
 
+```pascal
+function StrReplace(S, Old, New: string) : string;
+begin
+  Result := StringReplace(S, Old, New, [rfReplaceAll]);
+end;
+//--------------------------------------------------------------------
+function StrReplaceI(S, Old, New: string) : string;
+begin
+  Result := StringReplace(S, Old, New, [rfReplaceAll, rfIgnoreCase]);
+end;     
+//--------------------------------------------------------------------
+function SecondsToTime(sec: integer) : string;
+var
+  H, M, S: integer;
+begin
+  H := floor(sec/3600);
+  M := floor((sec-3600*H)/60);
+  S := sec-3600*H-60*M;
+  If H < 10 then Result := '0'+Str(H) else Result := Str(H);
+  If M < 10 then Result := Result+':0'+Str(M) else Result := Result+':'+Str(M);
+  If S < 10 then Result := Result+':0'+Str(S) else Result := Result+':'+Str(S);
+end;
+//--------------------------------------------------------------------
+function TimeToSeconds(Text: string) : integer;
+var
+  txt : string;
+  Items: TStringList;
+begin
+  Items := TStringList.Create;
+  txt := StringReplace(Text, ' ', '', [rfReplaceAll, rfIgnoreCase]);
+  txt := StringReplace(Txt, '_', '', [rfReplaceAll, rfIgnoreCase]);
+  Split(':', txt, Items);
+  If Items[0] = '' then Items[0] := '0';
+  If Items[1] = '' then Items[1] := '0';
+  If Items[2] = '' then Items[2] := '0';
+  result:= getInteger(Items[0])*3600+getInteger(Items[1])*60+getInteger(Items[2]);
+  Items.Free;
+end;
+```
 
 ### FIGcharacters:
 FIGlet prints its input with large characters (called "FIGcharacters") composed of ordinary screen characters (so-called "sub-characters"). FIGlet output is generally reminiscent of the kind of "sign-natures" that many people like to put at the end of email and UseNet messages. It is also reminiscent of the output of some banner programs, although it is normally aligned, not sideways.
