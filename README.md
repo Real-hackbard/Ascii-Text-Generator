@@ -1,12 +1,16 @@
 # Ascii-Text-Generator:
 
+</br>
+
 ```ruby
 Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
 Components  : PNGImage.pas, FIGlet.pas, LabelLien.pas
 Discription : ASCii Text Art Creator
-Last Update : 08/2025
+Last Update : 09/2025
 License     : Freeware
 ```
+
+</br>
 
 ```ruby
       :::::::::: :::::::::::  ::::::::  :::        :::::::::: ::::::::::: 
@@ -34,10 +38,12 @@ License     : Freeware
             ###    ### ########## ###    ### ########## ### 
 ```
 
-
+</br>
 
 
 ### 1.  What is FIGlet? 
+FIGlet is a computer program that generates text banners, in a variety of [typefaces](https://en.wikipedia.org/wiki/Typeface), composed of letters made up of conglomerations of smaller [ASCII}(https://en.wikipedia.org/wiki/ASCII) characters (see [ASCII art](https://en.wikipedia.org/wiki/ASCII_art)). The name derives from "Frank, Ian and Glenn's letters"
+
 ### 2.  Where can I get FIGlet from?
 ### 3.  Where can I get more fonts for FIGlet?
 ### 4.  How can I contribute?
