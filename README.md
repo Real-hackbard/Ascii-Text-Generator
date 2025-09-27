@@ -48,20 +48,29 @@ FIGlet is a computer program that generates text banners, in a variety of [typef
 http://www.figlet.org/
 
 ### 3.  Where can I get more fonts for FIGlet?
-### 4.  How can I contribute?
-### 5.  Where does the name FIGlet come from?
+Font Download : http://www.figlet.org/fontdb.cgi  
 
 Once you've installed the PNG components and successfully compiled the project, you need to download the fonts. Create a "Font" folder in the project folder and copy the *.fif files into this folder to render them.
 
-Font Download : http://www.figlet.org/fontdb.cgi
+### 4.  How can I contribute?
+* FIGlet Fonts & Sites : https://knassen.github.io/personal-tech/figlet.html
+* SteveC wrote a teeny tiny figlet plug in for xchat that you can find here: http://www.fractalus.com/steve/stuff/figlet/
+* PAT or JK's Text ASCII Art Generator (TAAG) : https://www.patorjk.com/software/taag/
+* Julius Kammerl's FIGlet generator : https://www.kammerl.de/ascii/AsciiSignature.php
+* Joerg Seyfferth's FIGlet server : http://www.network-science.de/ascii/
+* MS-DOS program called FABS : https://www.angelfire.com/il/fabs/
+* Windows Utilities : http://www.sigsoftware.com/emaileffects/
+* Mac Utilities : http://www.memention.com/figlet/
+* Emacs lisp functions to call FIGlet from Emacs : http://www.figlet.org/figlet.el
 
+
+### 5.  Where does the name FIGlet come from?
+```"Frank, Ian and Glen's letters"```
 
 A FIGlet font is a decorative font composed of ASCII characters to display letters and numbers. FIGlet fonts are part of ASCII art.
 The name originally comes from a computer program called FIGlet (an acronym for Frank, Ian, and Glen's letters), which uses these fonts to create ASCII art.
 With the ASCii Text Creator, you can create FIGlet fonts at the touch of a button. There are 302 font arts available to choose from.
 The "Fonts" folder can also be expanded with your own FIGlet fonts if desired. Simply copy the files into the folder; they should have the *.fif file extension so that the tool recognizes them.
-
-![Ascii Text Generator 1 0 Source](https://github.com/user-attachments/assets/4a9b97e1-85b0-41f3-ba6c-479c939097e0)
 
 The tool can also export ASCII text in images, offering several features. RGB color values are adjustable, and a gradient can be generated.
 
