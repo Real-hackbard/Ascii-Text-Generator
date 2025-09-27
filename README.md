@@ -45,6 +45,8 @@ License     : Freeware
 FIGlet is a computer program that generates text banners, in a variety of [typefaces](https://en.wikipedia.org/wiki/Typeface), composed of letters made up of conglomerations of smaller [ASCII](https://en.wikipedia.org/wiki/ASCII) characters (see [ASCII art](https://en.wikipedia.org/wiki/ASCII_art)). The name derives from "Frank, Ian and Glenn's letters"
 
 ### 2.  Where can I get FIGlet from?
+http://www.figlet.org/
+
 ### 3.  Where can I get more fonts for FIGlet?
 ### 4.  How can I contribute?
 ### 5.  Where does the name FIGlet come from?
