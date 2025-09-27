@@ -88,10 +88,15 @@ The tool can also export ASCII text in images, offering several features. RGB co
 * Select TTF Fonts
 * Transparent PNG Image
 
+### The Hashtag Problem:
+Because keyboard layouts in the past weren't the same as they are today, even though they use the same ASCII set, it's possible that a hashtag is drawn instead of a space. This isn't necessarily a bug, but simply a misinterpretation of the font set. The problem is that strings weren't defined as PWideChar in 1991, and today's Delphi compilers assume this, which is why this misinterpretation occurs.
+
+
+###
 FIGlet prints its input with large characters (called "FIGcharacters") composed of ordinary screen characters (so-called "sub-characters"). FIGlet output is generally reminiscent of the kind of "sign-natures" that many people like to put at the end of email and UseNet messages. It is also reminiscent of the output of some banner programs, although it is normally aligned, not sideways.
 
-FIGULET can print in a variety of fonts, both left-to-right and right-to-left, with adjacent FIG characters kerned and squashed together in various ways.
-FIGULET fonts are stored in separate files, which can be denoted by the suffix ".flf." Most FIGlet font files are stored in FIGlet's standard fonts directory.
+FIGlet can print in a variety of fonts, both left-to-right and right-to-left, with adjacent FIG characters kerned and squashed together in various ways.
+FIGlet fonts are stored in separate files, which can be denoted by the suffix "[.flf](https://de.wikipedia.org/wiki/Fractal_Image_Format)." Most FIGlet font files are stored in FIGlet's standard fonts directory.
 
 The file format for FIGlet fonts is specified in the FIGfont Version 2 FIGfont and FIGdriver standard. The fonts are stored in ASCII files with the filename extension flf. Their content consists of a header and a list of the individual characters. The header essentially contains formatting options, a specification of the character set size and character dimensions. It can also contain free comments from the author. Optionally, the file contents can be compressed in ZIP format.
 
