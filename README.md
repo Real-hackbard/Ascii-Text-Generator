@@ -88,6 +88,57 @@ The tool can also export ASCII text in images, offering several features. RGB co
 * Select TTF Fonts
 * Transparent PNG Image
 
+### Build Images:
+Editors are difficult to Render to an Image, but Pascal is powerful in this area. The Image is not drawn in a TImage component, but in memory.
+```pascal
+  bmp := TBitmap.Create;
+  bmp.Canvas.Rectangle(0,0,bmp.Width,bmp.Height);
+  bmp.Canvas.Brush.Style := bsClear;
+  bmp.Canvas.Brush.Color := Shape1.Brush.Color;
+  bmp.Canvas.Font := Memo1.Font;
+  lcr := 0;
+
+  // Align the Text into the Bitmap
+  if Memo1.Alignment = taLeftJustify then lcr := DT_LEFT;
+  if Memo1.Alignment = taCenter then lcr := DT_CENTER;
+  if Memo1.Alignment = taRightJustify then lcr := DT_RIGHT;
+
+  TextRect.Left := 0;
+  TextRect.Top := 0;
+
+  // Draw Memo Text to Bitmap
+  DrawText(bmp.Canvas.Handle,PChar(Memo1.Lines.Text), length(Memo1.Lines.Text),
+           TextRect, DT_CALCRECT or DT_NOPREFIX or lcr);
+
+  bmp.Width :=  TextRect.Right;
+  bmp.Height := TextRect.Bottom;
+
+  // If text is bigger than image then exit
+  if (TextRect.Right > bmp.Width) or
+     (TextRect.Bottom > bmp.Height) then begin
+    ShowMessage('Text too large for image');
+    bmp.Free;
+    Exit;
+  end;
+
+  try
+    // Put the text in the center of the bmp
+    OffsetRect(TextRect,(bmp.Width - TextRect.Right) Div 2,
+                        (bmp.Height - TextRect.Bottom) Div 2);
+    // Draw Text
+    DrawText(bmp.Canvas.Handle,PWideChar(Memo1.Lines.Text),
+        length(Memo1.Lines.Text),TextRect,
+        DT_NOPREFIX or lcr);
+
+   Image := TImage.Create(self);
+   Image.Picture.Bitmap.Assign(bmp);
+   Image.Picture.Bitmap.SaveToFile(SaveDialog1.FileName + '.bmp');
+  finally
+  end;
+```
+
+
+
 ### The Hashtag Problem:
 Because keyboard layouts in the past weren't the same as they are today, even though they use the same ASCII set, it's possible that a hashtag is drawn instead of a space. This isn't necessarily a bug, but simply a misinterpretation of the font set. The problem is that strings weren't defined as PWideChar in 1991, and today's Delphi compilers assume this, which is why this misinterpretation occurs.
 
