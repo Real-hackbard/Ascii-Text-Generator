@@ -51,6 +51,7 @@ http://www.figlet.org/
 Font Download : http://www.figlet.org/fontdb.cgi  
 
 Once you've installed the PNG components and successfully compiled the project, you need to download the fonts. Create a "Font" folder in the project folder and copy the *.fif files into this folder to render them.
+The "Fonts" folder can also be expanded with your own FIGlet fonts if desired. Simply copy the files into the folder; they should have the *.fif file extension so that the tool recognizes them.
 
 ### 4.  How can I contribute?
 * FIGlet Fonts & Sites : https://knassen.github.io/personal-tech/figlet.html
@@ -70,11 +71,22 @@ Once you've installed the PNG components and successfully compiled the project, 
 A FIGlet font is a decorative font composed of ASCII characters to display letters and numbers. FIGlet fonts are part of ASCII art.
 The name originally comes from a computer program called FIGlet (an acronym for Frank, Ian, and Glen's letters), which uses these fonts to create ASCII art.
 With the ASCii Text Creator, you can create FIGlet fonts at the touch of a button. There are 302 font arts available to choose from.
-The "Fonts" folder can also be expanded with your own FIGlet fonts if desired. Simply copy the files into the folder; they should have the *.fif file extension so that the tool recognizes them.
+
+</br>
+
+![Ascii-Text-Generator](https://github.com/user-attachments/assets/7bd4ddac-08f5-4535-9968-9b99a3cbd007)
+
+</br>
 
 The tool can also export ASCII text in images, offering several features. RGB color values are adjustable, and a gradient can be generated.
 
-Posible Export formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF; *.TIF; *.WMF; *.EMF; *.PSD; *.PDF;
+
+### Update Notes:
+* Export Formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF;
+* Invert Images
+* Edit Background Color
+* Select TTF Fonts
+* Transparent PNG Image
 
 FIGlet prints its input with large characters (called "FIGcharacters") composed of ordinary screen characters (so-called "sub-characters"). FIGlet output is generally reminiscent of the kind of "sign-natures" that many people like to put at the end of email and UseNet messages. It is also reminiscent of the output of some banner programs, although it is normally aligned, not sideways.
 
