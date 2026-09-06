@@ -11,11 +11,6 @@
 
 <br>
 
-
-
-
-
-
 ```javascript
       :::::::::: :::::::::::  ::::::::  :::        :::::::::: ::::::::::: 
       :+:            :+:     :+:    :+: :+:        :+:            :+:     
@@ -91,7 +86,15 @@ With the ASCii Text Creator, you can create FIGlet fonts at the touch of a butto
 The tool can also export ASCII text in images, offering several features. RGB color values are adjustable, and a gradient can be generated.
 
 
-### Update Notes:
+### Update Notes: 1.0.3
+* Text position setting
+* Replace chars in text
+* Add 400+ FIGlet font files
+* Create margin after text for image
+* Search FIGlet
+* Precisely matching the image
+
+### Update Notes: 1.0.2
 * Export Formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF;
 * Invert Images
 * Edit Background Color
