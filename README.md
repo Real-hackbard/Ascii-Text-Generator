@@ -80,7 +80,7 @@ With the ASCii Text Creator, you can create FIGlet fonts at the touch of a butto
 
 <img src="https://github.com/user-attachments/assets/67880afe-22cb-4c1a-a03e-e27551e69c20" />
 
-</br>
+<br>
 
 The tool can also export ASCII text in images, offering several features. RGB color values are adjustable, and a gradient can be generated.
 
