@@ -78,7 +78,7 @@ With the ASCii Text Creator, you can create FIGlet fonts at the touch of a butto
 
 </br>
 
-![Ascii-Text-Generator](https://github.com/user-attachments/assets/7bd4ddac-08f5-4535-9968-9b99a3cbd007)
+<img src="https://github.com/user-attachments/assets/67880afe-22cb-4c1a-a03e-e27551e69c20" />
 
 </br>
 
