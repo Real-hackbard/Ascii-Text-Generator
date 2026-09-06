@@ -9,7 +9,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 | 1.0.2   | :white_check_mark: Export Formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF; Invert Images; Edit Background Color; Select TTF Fonts; Transparent PNG Image |
-| 1.0.3   | :white_check_mark: |
+| 1.0.3   | :white_check_mark: Text position setting; Replace chars in text; Add 400+ FIGlet font files ;Create margin after text for image ;Search FIGlet; Precisely matching the image; Exchange of individual or entire characters |
 
 ## Reporting a Vulnerability
 
