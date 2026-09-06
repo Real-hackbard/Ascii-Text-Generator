@@ -93,6 +93,7 @@ The tool can also export ASCII text in images, offering several features. RGB co
 * Create margin after text for image
 * Search FIGlet
 * Precisely matching the image
+* Exchange of individual or entire characters
 
 ### Update Notes: 1.0.2
 * Export Formats: *.BMP; *.JPG; *.JPEG; *.PNG; *.GIF;
